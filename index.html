@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal - Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <!-- Encabezado -->
+        <header class="card">
+            <h1>Sandro Jaramillo</h1>
+            <p class="subtitle">Estudiante • Valledupar, Colombia • ortizsandro95@gmail.com • +57 3104468011</p>
+        </header>
+
+        <div class="grid">
+            <!-- Columna izquierda -->
+            <aside>
+                <section class="card">
+                    <h2>Perfil</h2>
+                    <img class="photo" src="img/Foto de perfil del Danny Phantom XD.jpeg" alt="Foto personal">
+                    <p><strong>Contacto</strong><br>
+                        <a href="mailto:ortizsandro95@gmail.com">ortizsandro95@gmail.com</a><br>
+                        <a href="https://www.linkedin.com/in/sanjs27" target="_blank">LinkedIn</a><br>
+                        <a href="https://github.com/sanjs27" target="_blank">GitHub</a><br>
+                        <a href="https://x.com/SANDROO29323945" target="_blank">Twitter</a><br>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                    </p>
+                </section>
+
+                <section class="card">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>HTML y CSS</li>
+                        <li>Git y GitHub</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Resolución de problemas</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <!-- Columna derecha -->
+            <main>
+                <section class="card">
+                    <h2>Presentación</h2>
+                    <p>Hola, soy <strong>Sandro Jaramillo</strong>. Esta es mi página personal en formato de hoja de
+                        vida. Aquí comparto mi perfil, mis pasatiempos y mis tareas prioritarias.</p>
+                </section>
+
+                <section class="card">
+                    <h2>Pasatiempos y Tareas</h2>
+                    <div class="dual-grid">
+                        <div>
+                            <h3>Pasatiempos</h3>
+                            <ul>
+                                <li>Leer ciencia ficción</li>
+                                <li>Escuchar música</li>
+                                <li>Programar proyectos personales</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Tareas prioritarias</h3>
+                            <ol>
+                                <li>Hacer oficio</li>
+                                <li>Estudiar para exámenes</li>
+                                <li>Terminar proyecto de programación</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Horario Semanal</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Día</th>
+                                <th>Actividad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>Hacer oficio</td>
+                            </tr>
+                            <tr>
+                                <td>Martes</td>
+                                <td>Estudiar para exámenes</td>
+                            </tr>
+                            <tr>
+                                <td>Miércoles</td>
+                                <td>Proyecto de programación</td>
+                            </tr>
+                            <tr>
+                                <td>Jueves</td>
+                                <td>Resolver ejercicios de algoritmos</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes</td>
+                                <td>Leer documentación de nuevas tecnologías</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>Participar en foros de programación</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo</td>
+                                <td>Descansar y repasar conceptos</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="card">
+                    <h2>Contáctame</h2>
+                    <form class="formulario">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="tu-correo@ejemplo.com" required>
+
+                        <label for="motivo">Motivo</label>
+                        <textarea id="motivo" name="motivo" placeholder="Cuéntame en qué te puedo ayudar"
+                            required></textarea>
+
+                        <button type="submit" class="btn">Enviar mensaje</button>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
