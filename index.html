@@ -116,7 +116,7 @@
 
                 <section class="card">
                     <h2>Contáctame</h2>
-                    <form class="formulario">
+                    <form class="formulario" id="contactForm">
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
 
@@ -129,10 +129,16 @@
 
                         <button type="submit" class="btn">Enviar mensaje</button>
                     </form>
+
+                    <p id="mensajeExito" class="mensaje-exito" style="display: none;">
+                        ✅ ¡Tu mensaje fue enviado correctamente!
+                    </p>
                 </section>
             </main>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
